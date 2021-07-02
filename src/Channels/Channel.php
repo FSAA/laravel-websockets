@@ -106,7 +106,7 @@ class Channel
         SubscribedToChannel::dispatch(
             $connection->app->id,
             $connection->socketId,
-            $this->getName(),
+            $this->getName()
         );
 
         return true;
